@@ -1,4 +1,11 @@
-#navegadorBarraSuperior{
+#navBarraSuperior{
+    background-color:rgb( 000,196,179);
+}
+
+#barraSuperior{
+    background-color:rgb( 000,196,179);
+}
+#navbarNav{
     background-color:rgb( 000,196,179);
 }
 
@@ -9,8 +16,9 @@
 #divPrincipal{
     background-color: aliceblue;
 }
-h1{
+p{
     font-family: sans-serif;
     color: white;
+    font-size: large;
 }
 
