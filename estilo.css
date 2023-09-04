@@ -8,13 +8,16 @@
 #navbarNav{
     background-color:rgb( 000,196,179);
 }
-
+.imagenCarrusel{
+    width: 80%;
+    height: 500px;
+}
 #listaNav{
     background-color: rgb(245,191,154);
 }
 
 #divPrincipal{
-    background-color: aliceblue;
+    background-color: white;
 }
 p{
     font-family: sans-serif;
@@ -22,3 +25,9 @@ p{
     font-size: large;
 }
 
+.lineaD{
+    width: 95%;
+    height: 3px;
+    background-color: rgb( 000,196,179);
+    
+}
