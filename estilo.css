@@ -31,3 +31,40 @@ p{
     background-color: rgb( 000,196,179);
     
 }
+
+/* Estilos para la barra lateral de redes sociales */
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    z-index: 1000;
+}
+
+.social-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.social-sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Estilos para las imágenes de las redes sociales */
+.social-sidebar ul li img {
+    width: 40px;
+    height: 40px;
+}
+ .p{
+    color: black;
+ }
+/* Cambia los estilos según tus preferencias */
