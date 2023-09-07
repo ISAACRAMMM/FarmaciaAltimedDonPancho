@@ -1,70 +1,91 @@
-#navBarraSuperior{
-    background-color:rgb( 000,196,179);
+#navBarraSuperior {
+  background-color: rgb(000, 196, 179);
 }
 
-#barraSuperior{
-    background-color:rgb( 000,196,179);
+#barraSuperior {
+  background-color: rgb(000, 196, 179);
 }
-#navbarNav{
-    background-color:rgb( 000,196,179);
+#navbarNav {
+  background-color: rgb(000, 196, 179);
 }
-.imagenCarrusel{
-    width: 80%;
-    height: 500px;
+.imagenCarrusel {
+  width: 80%;
+  height: 500px;
 }
-#listaNav{
-    background-color: rgb(245,191,154);
-}
-
-#divPrincipal{
-    background-color: white;
-}
-p{
-    font-family: sans-serif;
-    color: white;
-    font-size: large;
+#listaNav {
+  background-color: rgb(245, 191, 154);
 }
 
-.lineaD{
-    width: 95%;
-    height: 2px;
-    background-color: rgb( 000,196,179);
-    
+#divPrincipal {
+  background-color: white;
+}
+p {
+  font-family: sans-serif;
+  color: white;
+  font-size: large;
+}
+
+.lineaD {
+  width: 95%;
+  height: 2px;
+  background-color: rgb(000, 196, 179);
 }
 
 /* Estilos para la barra lateral de redes sociales */
 .social-sidebar {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    z-index: 1000;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  z-index: 1000;
 }
 
 .social-sidebar ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .social-sidebar ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .social-sidebar ul li a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 24px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
 }
 
 /* Estilos para las imágenes de las redes sociales */
 .social-sidebar ul li img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
- .p{
-    color: black;
- }
+.p {
+  color: black;
+}
 /* Cambia los estilos según tus preferencias */
+
+.menu-btn {
+  width: 150px; /* Ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Aumenta el tamaño del menú desplegable */
+
+.ancho{/*ancho de las tablas desplegables*/
+  width: 900px;
+}
+
+.titulosCategorias{
+    padding-left: 20%;
+    padding-right: 25%;
+}
+.imagenProductoCategoria{
+    width: 100px;
+    height: auto;
+}
+
+
