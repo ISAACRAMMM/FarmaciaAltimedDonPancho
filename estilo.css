@@ -103,4 +103,11 @@ p {
   margin: 10px;
   padding: 10px;
 }
+.contenedorUbicacion{
+
+   outline-color: rgb(245, 191, 154);
+  outline-style: dotted;
+  margin: 10px;
+  padding: 10px;
+}
 
