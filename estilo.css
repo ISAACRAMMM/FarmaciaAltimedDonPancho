@@ -12,6 +12,12 @@
   width: 80%;
   height: 500px;
 }
+
+.imagenCarruselProducto{
+  width: 800px;
+height: auto;
+}
+
 #listaNav {
   background-color: rgb(245, 191, 154);
 }
@@ -83,9 +89,18 @@ p {
     padding-left: 20%;
     padding-right: 25%;
 }
-.imagenProductoCategoria{
-    width: 100px;
+.imagenCarruselProducto{
+    width: 800px;
     height: auto;
 }
-
+.carruselTam{
+  padding-top: 2fr;
+  height: 700px;
+}
+.contenedorProducto{
+  outline-color: rgb(245, 191, 154);
+  outline-style: dotted;
+  margin: 10px;
+  padding: 10px;
+}
 
