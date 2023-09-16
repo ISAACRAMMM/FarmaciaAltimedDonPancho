@@ -8,14 +8,22 @@
 #navbarNav {
   background-color: rgb(000, 196, 179);
 }
-.imagenCarrusel {
-  width: 80%;
+/*.imagenCarrusel {
+  width: 1200px;
+  
+  min-width: auto ;
   height: 500px;
+  min-height: auto;
 }
-
-.imagenCarruselProducto{
-  width: 800px;
-height: auto;
+*/
+.imagenContenedorCarrusel{
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.imagenProductoCategoria {
+  width: 150px;
+  height: auto;
 }
 
 #listaNav {
@@ -81,33 +89,52 @@ p {
 
 /* Aumenta el tamaño del menú desplegable */
 
-.ancho{/*ancho de las tablas desplegables*/
+.ancho {
+  /*ancho de las tablas desplegables*/
   width: 900px;
 }
 
-.titulosCategorias{
-    padding-left: 20%;
-    padding-right: 25%;
+.titulosCategorias {
+  padding-left: 4%;
+  padding-right: 25%;
 }
-.imagenCarruselProducto{
-    width: 800px;
-    height: auto;
+.imagenCarruselProducto {
+  width: 800px;
+  height: auto;
 }
-.carruselTam{
+.carruselTam {
   padding-top: 2fr;
   height: 700px;
 }
-.contenedorProducto{
+.contenedorProducto {
   outline-color: rgb(245, 191, 154);
   outline-style: dotted;
   margin: 10px;
   padding: 10px;
 }
-.contenedorUbicacion{
-
-   outline-color: rgb(245, 191, 154);
+.contenedorUbicacion {
+  outline-color: rgb(245, 191, 154);
   outline-style: dotted;
   margin: 10px;
   padding: 10px;
 }
 
+.barraSuperiorBoton:hover{
+  background-color: rgba(211, 211, 211, 0.434);  
+  
+}
+.barraSuperiorBoton{
+  border-left: 3px solid;
+  border-color: rgba(245, 191, 154, 0.571) ;
+}
+
+.color2{
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#pie{
+  background-color: rgb(000, 196, 179);
+  outline: black;
+}
