@@ -27,36 +27,51 @@
 
     <div id="barraSuperior" class="container-fluid fixed-top"> <!-- barra superior (menu)-->
 
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="container" id="navBarraSuperior">
-          <a class="navbar-brand" href="#">
-            <img src="./Imagenes/Logotipo sin aviso comercial.png" alt="Logo de la Empresa" class="img-fluid">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <nav class="navbar navbar-expand-lg navbar-light container">
+        <div class="fixed-center" id="navBarraSuperior">
+
+
           <!--<div><p>Farmacias Altimed Don Pancho</p></a></div>-->
 
-          <div class="collapse navbar-collapse container-fluid justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item barraSuperiorBoton">
-                <a class="nav-link h4" href="#">Productos</a>
-              </li>
-              
-              <li class="nav-item barraSuperiorBoton">
-                <a class="nav-link h4" href="#">Acerca de</a>
-              </li>
-              
-              <li class="nav-item barraSuperiorBoton">
-                <a class="nav-link h4" href="#">Ubicacion</a>
-              </li>
-              
-              <li class="nav-item barraSuperiorBoton">
-                <a class="nav-link h4" href="#">Contacto</a>
-              </li>
-            </ul>
+
+          <div class="row ">
+            <div class="col">
+
+              <a class="navbar-brand" href="#">
+                <img src="./Imagenes/Logotipo sin aviso comercial.png" alt="Logo de la Empresa" class="img-fluid">
+              </a>
+            </div>
           </div>
+          <div class="row ">
+            <div class="col">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse container-fluid justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item barraSuperiorBoton">
+                    <a class="nav-link h4" href="#">Productos</a>
+                  </li>
+
+                  <li class="nav-item barraSuperiorBoton">
+                    <a class="nav-link h4" href="#">Acerca de</a>
+                  </li>
+
+                  <li class="nav-item barraSuperiorBoton">
+                    <a class="nav-link h4" href="#">Ubicacion</a>
+                  </li>
+
+                  <li class="nav-item barraSuperiorBoton">
+                    <a class="nav-link h4" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
       </nav>
 
@@ -66,7 +81,7 @@
       <br>
       <br>
       <br>
-     
+
       <br>
       <br>
       <br>
@@ -76,462 +91,516 @@
 
     <div id="contenidoPrincipal"> <!--Todo el contenido here -->
 
-      <div class="justify-content-center  imagenContenedorCarrusel" > <!--Inicio Carrusel-->
+      <div class="justify-content-center  imagenContenedorCarrusel"> <!--Inicio Carrusel-->
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-              <img src="./Imagenes/BanerCompleto.png" class="d-block  imagenCarrusel rounded mx-auto  img-fluid d-block" alt="...">
+              <img src="./Imagenes/BanerCompleto.png" class="d-block  imagenCarrusel rounded mx-auto  img-fluid d-block"
+                alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="./Imagenes/HPC_farmacia_600x300 copia 1400x700.jpg" class="d-block  imagenCarrusel rounded mx-auto d-block" alt="...">
-            <!-- </div>
+              <img src="./Imagenes/HPC_farmacia_600x300 copia 1400x700.jpg"
+                class="d-block  imagenCarrusel rounded mx-auto d-block" alt="...">
+              <!-- </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img src="./Imagenes/images.png" class="d-block imagenCarrusel rounded mx-auto d-block" alt="...">
             </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-            <span class="visually-hidden ">Next</span>
-          </button>
+
+        </div> <!--fin carrusel-->
+
+        <div><!-- Linea Div-->
+          <br>
+          <br>
+          <br>
+          <div class="lineaD mx-auto"></div>
+          <br>
+          <br>
+          <br>
         </div>
 
-      </div> <!--fin carrusel-->
-
-      <div><!-- Linea Div-->
-        <br>
-        <br>
-        <br>
-        <div class="lineaD mx-auto"></div>
-        <br>
-        <br>
-        <br>
-      </div>
-
-      <div class="color2"> <!--Inicio Categorias-->
-
-        <div class="container">
-
-          <h2>Productos</h2>
-          <div><br></div>
-
-          <div class="row row-cols-4">
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/Productos/Cuidado-Personal-D 500x500.jpg" alt="Imagen 1" class="menu-btn">
-                </button>
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                        alt="Imagen del Producto"></a></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                        alt="Imagen del Producto"></a></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                        alt="Imagen del Producto"></a></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Cuidado Personal </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/Productos/Problemas-piel-D 500x.jpg" alt="Imagen 1" class="menu-btn">
-                </button>
-
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Vitaminas y Suplementos </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/Productos/Dolor-fiebre-D 500x.jpg" alt="Imagen 1" class="menu-btn">
-                </button>
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                        alt="Imagen del Producto"></a></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                        alt="Imagen del Producto"></a></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                        alt="Imagen del Producto"></a></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Medicamentos </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
-                </button>
-
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Nombre de la Categoria </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
-                </button>
-
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Nombre de la Categoria </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
-                </button>
-
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Nombre de la Categoria </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-
-            <div class="col container">
-              <div class="dropdown">
-                <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
-                </button>
-
-                <table class=" dropdown-menu table table-borderless w-auto">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col">Nombre </th>
-                      <th scope="col">Descripcion </th>
-
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                    <tr>
-                      <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
-                          alt="Imagen del Producto"></th>
-                      <td>Nombre del producto</td>
-                      <td>Descripcion</td>
-
-                    </tr>
-                  </tbody>
-                </table>
-
-              </div>
-
-              <div class="d-flex "> <!--Nombre de la categoria-->
-                <h5 class="titulosCategorias">Nombre de la Categoria </h5>
-              </div>
-
-            </div> <!--fin Tabla-->
-
-
-            <!-- Agrega más columnas para más menús -->
+        <div class="color2"> <!--Inicio Categorias-->
+
+          <div class="container">
+
+            <h2>Productos</h2>
+            <div><br></div>
+
+            <div class="row row-cols-4">
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/Productos/Cuidado-Personal-D 500x500.jpg" alt="Imagen 1" class="menu-btn">
+                  </button>
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria"
+                              src="./Imagenes/cruz verde.png" alt="Imagen del Producto"></a></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria"
+                              src="./Imagenes/cruz verde.png" alt="Imagen del Producto"></a></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria"
+                              src="./Imagenes/cruz verde.png" alt="Imagen del Producto"></a></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Cuidado Personal </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/Productos/Problemas-piel-D 500x.jpg" alt="Imagen 1" class="menu-btn">
+                  </button>
+
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Vitaminas y Suplementos </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/Productos/Dolor-fiebre-D 500x.jpg" alt="Imagen 1" class="menu-btn">
+                  </button>
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria"
+                              src="./Imagenes/cruz verde.png" alt="Imagen del Producto"></a></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria"
+                              src="./Imagenes/cruz verde.png" alt="Imagen del Producto"></a></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><a href="./ProductoDetalle.html"><img class="imagenProductoCategoria"
+                              src="./Imagenes/cruz verde.png" alt="Imagen del Producto"></a></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Medicamentos </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
+                  </button>
+
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Nombre de la Categoria </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
+                  </button>
+
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Nombre de la Categoria </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
+                  </button>
+
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Nombre de la Categoria </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+
+              <div class="col container">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./Imagenes/cruz naranja.png" alt="Imagen 1" class="menu-btn">
+                  </button>
+
+                  <table class=" dropdown-menu table table-borderless w-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Nombre </th>
+                        <th scope="col">Descripcion </th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                      <tr>
+                        <th><img class="imagenProductoCategoria" src="./Imagenes/cruz verde.png"
+                            alt="Imagen del Producto"></th>
+                        <td>Nombre del producto</td>
+                        <td>Descripcion</td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="d-flex "> <!--Nombre de la categoria-->
+                  <h5 class="titulosCategorias">Nombre de la Categoria </h5>
+                </div>
+
+              </div> <!--fin Tabla-->
+
+
+              <!-- Agrega más columnas para más menús -->
+            </div>
           </div>
+
+        </div> <!--fin Categorias-->
+
+        <div><!-- Linea Div-->
+          <br>
+          <br>
+          <br>
+          <div class="lineaD mx-auto"></div>
+          <br>
+          <br>
+          <br>
         </div>
 
-      </div> <!--fin Categorias-->
+        <div> <!--inicio Contacto-->
 
-      <div><!-- Linea Div-->
-        <br>
-        <br>
-        <br>
-        <div class="lineaD mx-auto"></div>
-        <br>
-        <br>
-        <br>
-      </div>
+          <div><!--Inicio Redes Sociales-->
 
-      <div> <!--inicio Contacto-->
+            <div class="social-sidebar">
+              <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100091419365305"><img
+                      src="./Imagenes/redes/fb_icon-x32.png" alt="Facebook"></a></li>
+                <li><a href="https://ws.com"><img src="./Imagenes/redes/whatsapp_icon-x32.png" alt="Twitter"></a></li>
+                <li><a href="https://instagram.com"><img src="./Imagenes/redes/gmail_icon-x32.png" alt="Instagram"></a>
+                </li>
 
-        <div><!--Inicio Redes Sociales-->
+                <!-- Agrega más enlaces a otras redes sociales si es necesario -->
+              </ul>
+            </div>
 
-          <div class="social-sidebar">
-            <ul>
-              <li><a href="https://www.facebook.com/profile.php?id=100091419365305"><img
-                    src="./Imagenes/redes/fb_icon-x32.png" alt="Facebook"></a></li>
-              <li><a href="https://ws.com"><img src="./Imagenes/redes/whatsapp_icon-x32.png" alt="Twitter"></a></li>
-              <li><a href="https://instagram.com"><img src="./Imagenes/redes/gmail_icon-x32.png" alt="Instagram"></a>
-              </li>
+          </div><!--Fin Redes Sociales-->
 
-              <!-- Agrega más enlaces a otras redes sociales si es necesario -->
+        </div> <!-- fin contacto-->
+
+        <div><!--Inicio Ubicacion-->
+          <div class="container">
+            <div class="row">
+              <div class="col"> <!--Horarios-->
+
+                <h3>Horarios</h3>
+                <ul>
+                  <li class="p">lunes------9:00am-8:00pm </li>
+                  <li class="p">Martes-----9:00am-8:00pm </li>
+                  <li class="p">Miercoles--9:00am-8:00pm </li>
+                  <li class="p">Jueves-----9:00am-8:00pm </li>
+                  <li class="p">Viernes----9:00am-8:00pm </li>
+                  <li class="p">Sabado-----9:00am-8:00pm </li>
+                  <li class="p">Doliingo---10:00am-6:00pm </li>
+                </ul>
+                <h3>Telefono</h3> <!--Telefonos-->
+                <ul>
+                  <li>
+                    <p class="p">123121212</p>
+                  </li>
+                  <li>
+                    <p class="p">332313144</p>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="col">
+                <div>
+                  <h3>Ubicacion</h3>
+                  <span class="h5">Nos encontramos ubicados en Graciano Sánchez 198 B, Tomatlán, Mexico</span>
+
+                  <iframe class="contenedorUbicacion"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d937.677900511037!2d-105.25232133637891!3d19.936554391315482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1693887560246!5m2!1ses-419!2smx"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--Fin Ubicacion-->
+
+        <div><!-- Linea Div-->
+          <br>
+          <br>
+          <br>
+          <div class="lineaD mx-auto"></div>
+          <br>
+          <br>
+          <br>
+        </div>
+
+        <div class="color2"><!-- inicio acerca de -->
+
+          <div class="container">
+            <h2>Acerca de</h2>
+            <span class=" p">
+              Somos un grupo de emprendedores de micro y mediana empresa con años de experiencia y nuevos farmacéuticos
+              que nos
+              reunimos para hacer frente a las grandes cadenas comerciales y que los laboratorios, fabricantes,
+              mayoristas
+              y
+              distribuidores nos tomen en cuenta y nos apoyen dándonos herramientas que nos permitan competir pueden
+              ser:
+            </span>
+            <ul class="p">
+              <li> Tecnología.</li>
+              <li> Capacitación.</li>
+              <li> Sistema.</li>
+              <li> Negociaciones.</li>
+              <li> Beneficios Comerciales.</li>
+              <li> Asesoría legal.</li>
             </ul>
+            <span class="p">
+              El objetivo es que la farmacia independiente tenga acceso a herramientas sistemas, tecnología,
+              negociaciones,
+              financiamiento, apoyos del gobierno y que es muy difícil tener acceso a todo eso y solo las grandes
+              empresas
+              lo
+              consiguen por su gran capital. Todo esto respetando a la farmacia independiente y sus propios intereses.
+            </span>
+
           </div>
 
-        </div><!--Fin Redes Sociales-->
+        </div><!-- fin fin de acerca de-->
 
-      </div> <!-- fin contacto-->
 
-      <div><!--Inicio Ubicacion-->
-        <div class="container">
-          <div class="row">
-            <div class="col"> <!--Horarios-->
 
-              <h3>Horarios</h3>
-              <ul>
-                <li class="p">lunes------9:00am-8:00pm </li>
-                <li class="p">Martes-----9:00am-8:00pm </li>
-                <li class="p">Miercoles--9:00am-8:00pm </li>
-                <li class="p">Jueves-----9:00am-8:00pm </li>
-                <li class="p">Viernes----9:00am-8:00pm </li>
-                <li class="p">Sabado-----9:00am-8:00pm </li>
-                <li class="p">Doliingo---10:00am-6:00pm </li>
-              </ul>
-              <h3>Telefono</h3> <!--Telefonos-->
-              <ul>
-                <li><p class="p">123121212</p></li>
-                <li><p class="p">332313144</p></li>
-              </ul>
-              
-            </div>
-            <div class="col">
-              <div>
-                <h3>Ubicacion</h3>
-                <span class="h5">Nos encontramos ubicados en Graciano Sánchez 198 B, Tomatlán, Mexico</span>
-
-                <iframe class="contenedorUbicacion"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d937.677900511037!2d-105.25232133637891!3d19.936554391315482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1693887560246!5m2!1ses-419!2smx"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!--Fin Ubicacion-->
+      </div><!--fin div contenidoPrincipal-->
 
       <div><!-- Linea Div-->
         <br>
@@ -543,103 +612,53 @@
         <br>
       </div>
 
-      <div class="color2"><!-- inicio acerca de -->
+      <div id="pie">
+        <footer class="bg-light text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+              </a>
 
-        <div class="container">
-          <h2>Acerca de</h2>
-          <span class=" p">
-            Somos un grupo de emprendedores de micro y mediana empresa con años de experiencia y nuevos farmacéuticos
-            que nos
-            reunimos para hacer frente a las grandes cadenas comerciales y que los laboratorios, fabricantes, mayoristas
-            y
-            distribuidores nos tomen en cuenta y nos apoyen dándonos herramientas que nos permitan competir pueden ser:
-          </span>
-          <ul class="p">
-            <li> Tecnología.</li>
-            <li> Capacitación.</li>
-            <li> Sistema.</li>
-            <li> Negociaciones.</li>
-            <li> Beneficios Comerciales.</li>
-            <li> Asesoría legal.</li>
-          </ul>
-          <span class="p">
-            El objetivo es que la farmacia independiente tenga acceso a herramientas sistemas, tecnología,
-            negociaciones,
-            financiamiento, apoyos del gobierno y que es muy difícil tener acceso a todo eso y solo las grandes empresas
-            lo
-            consiguen por su gran capital. Todo esto respetando a la farmacia independiente y sus propios intereses.
-          </span>
+              <!-- Twitter -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #62ee55;" href="#!" role="button"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a>
 
-        </div>
+              <!-- Google -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope-at" viewBox="0 0 16 16">
+                  <path
+                    d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z" />
+                  <path
+                    d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                </svg></a>
 
-      </div><!-- fin fin de acerca de-->
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
 
-
-
-    </div><!--fin div contenidoPrincipal-->
-
-    <div><!-- Linea Div-->
-      <br>
-      <br>
-      <br>
-      <div class="lineaD mx-auto"></div>
-      <br>
-      <br>
-      <br>
-    </div>
-
-    <div id="pie">
-      <footer class="bg-light text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #3b5998;"
-              href="#!"
-              role="button"
-              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-              </svg>
-            </a>
-      
-            <!-- Twitter -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #62ee55;"
-              href="#!"
-              role="button"
-              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-              </svg></a>
-      
-            <!-- Google -->
-            <a
-              class="btn text-white btn-floating m-1"
-              style="background-color: #dd4b39;"
-              href="#!"
-              role="button"
-              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
-                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
-                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-              </svg></a>
-      
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
-    </div>
-  </div><!--div principal-->
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+    </div><!--div principal-->
 </body>
 
 </html>
