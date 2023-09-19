@@ -1,9 +1,10 @@
 #navBarraSuperior {
-  background-color: rgb(000, 196, 179);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
 }
 
 #barraSuperior {
-  background-color: rgb(000, 196, 179);
+  background-color: rgb(255, 255, 255);
 }
 #navbarNav {
   background-color: rgb(000, 196, 179);
