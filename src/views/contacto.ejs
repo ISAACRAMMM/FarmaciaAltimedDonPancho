@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <%- include('partials/head.ejs') %>
+    
+</head>
+
+<body>
+
+
+  
+
+    <div><!--div principal-->
+
+
+        <%- include('partials/navegacion.ejs') %>
+
+        <div><!-- Linea Div-->
+            <br>
+            <br>
+            <br>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <!------------------------------------------------------------>
+
+
+<%- include('partials/redes.ejs') %>
+
+
+
+        <div class="container " style="width: 80%;">
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationDefault01" value="" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault02" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="validationDefault02" value="" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefaultUsername" class="form-label">Correo</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" class="form-control" id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                </div>
+                <div class="form-floating">
+
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Commentarios</label>
+                </div>
+
+                <div class="col-12">
+                    <button class="btn btn-success" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div id="pie" style="margin-top: 30%;"></div>
+
+        <%- include('partials/pie.ejs') %>
+    </div><!--fin div principal-->
+
+</body>
+
+</html>

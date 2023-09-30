@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de los Productos</title>
+
+    <%- include('partials/head.ejs') %>
+</head>
+
+<body>
+    
+
+
+
+
+    <div><!--Principal-->`
+
+        <%- include('partials/navegacion.ejs') %>
+        <%-include('partials/redes.ejs')%>
+        
+
+        <div><!-- Linea Div-->
+            <br>
+            <br>
+            <br>
+
+            <br>
+            <br>
+            <br>
+        </div>
+        <!------------------------------------------------------------>
+        <br>
+
+        <div class="container contenedorProducto"> <!--contenedor-->
+            <div class="row"><!--row-->
+                <div class="col-lg-8 "><!--div carrusel-->
+                    <div>
+
+                        <div class=" "> <!--Inicio Carrusel-->
+
+                            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-inner carruselTam align-middle">
+                                    <div class="carousel-item active " data-bs-interval="5000">
+                                        <img src="./Imagenes/ProductosClasificacion/Aspirina.jpg"
+                                            class="  imagenCarruselProducto img-thumbnail rounded align-middle d-block"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="./Imagenes/images (1).png"
+                                            class="d-block  imagenCarruselProducto img-thumbnail rounded mx-auto "
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="./Imagenes/images.png"
+                                            class="d-block imagenCarruselProducto img-thumbnail rounded mx-auto d-block"
+                                            alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next " type="button"
+                                    data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                    <span class="visually-hidden ">Next</span>
+                                </button>
+                            </div>
+
+                        </div> <!--fin carrusel-->
+
+                    </div>
+
+                </div>
+
+
+                <div class="col container">
+                    <div>
+
+                        <h2>Nombre...</h2>
+                        <span>
+                            Descripcionde los productos
+
+                        </span>
+                        <ul>
+                            <li>
+                                marca 1
+                            </li>
+                            <li>
+                                marca 2
+                            </li>
+                            <li>
+                                marca 3
+                            </li>
+                        </ul>
+                        <span></span>
+
+                    </div>
+                </div>
+
+            </div>
+        </div><!--Fin row-->
+    </div><!--fin contenedor-->
+
+    <div><!-- Linea Div-->
+        <br>
+        <br>
+        <br>
+
+        
+        
+        <br>
+    </div>
+
+    <%-include('partials/pie.ejs') %>
+    </div><!--fin Div Principal-->
+</body>
+
+</html>
