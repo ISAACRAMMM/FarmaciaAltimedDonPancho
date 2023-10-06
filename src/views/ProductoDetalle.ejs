@@ -42,21 +42,28 @@
 
                             <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
                                 <div class="carousel-inner carruselTam align-middle">
-                                    <div class="carousel-item active " data-bs-interval="5000">
-                                        <img src="./Imagenes/ProductosClasificacion/Aspirina.jpg"
-                                            class="  imagenCarruselProducto img-thumbnail rounded align-middle d-block"
-                                            alt="...">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="./Imagenes/images (1).png"
-                                            class="d-block  imagenCarruselProducto img-thumbnail rounded mx-auto "
-                                            alt="...">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="./Imagenes/images.png"
-                                            class="d-block imagenCarruselProducto img-thumbnail rounded mx-auto d-block"
-                                            alt="...">
-                                    </div>
+
+                                    <% let primeraIteracion = true; %>
+
+                                    <% resultadoDetalleSubcategoria.forEach((filaSubcategoria) => { %>
+                                        <% for (let i = 0; i <= 9; i++) {
+                                            const campoImagen = filaSubcategoria[`imagen${i}`];
+                                            if (campoImagen && campoImagen.trim() !== "") { // Verifica si el campo no está vacío o nulo
+                                        %>
+                                            <div class="carousel-item <%= primeraIteracion ? 'active' : '' %>" data-bs-interval="2000">
+                                            <img src="<%= campoImagen %>"
+                                            class="imagenCarruselProducto img-thumbnail rounded align-middle d-block" alt="...">
+                                        </div>
+                                    <% } %>
+                                    <% primeraIteracion = false; %>
+                                    <% } %>
+                                    
+
+                                    
+                                    
+                                    
+
+                                
                                 </div>
                                 <button class="carousel-control-prev" type="button"
                                     data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -80,10 +87,9 @@
                 <div class="col container">
                     <div>
 
-                        <h2>Nombre...</h2>
+                        <h2><%= filaSubcategoria.nombre %></h2>
                         <span>
-                            Descripcionde los productos
-
+                            <%= filaSubcategoria.descripcion %>
                         </span>
                         <ul>
                             <li>
@@ -97,7 +103,7 @@
                             </li>
                         </ul>
                         <span></span>
-
+                        <% }); %>
                     </div>
                 </div>
 

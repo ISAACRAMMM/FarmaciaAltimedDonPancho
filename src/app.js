@@ -14,7 +14,7 @@ const port = 3000;
 
 app.set("views", join(__dirname, "views"));
 app.set("view engine", "ejs");
-
+app.use(express.urlencoded({extended: true}));
 app.use(indexRoutes);
 app.use(express.static(join(__dirname, "public")));
 
